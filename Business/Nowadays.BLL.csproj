@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nowadays.DAL\Nowadays.DAL.csproj" />
+    <ProjectReference Include="..\Nowadays.DTO\Nowadays.DTO.csproj" />
+    <ProjectReference Include="..\Nowadays.Entity\Nowadays.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
